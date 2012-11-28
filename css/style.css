@@ -137,6 +137,7 @@ body {
 	margin: 5em auto 0;
 	background: #FFFFFF;
 	padding: 1em;
+	box-shadow: 0 3px 0px #eeeeee;
 }
 
 form {
