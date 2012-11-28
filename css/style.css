@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -------------- END CSS RESET -------------- */
+
+/* -- START OOCSS -- */
+
+header, footer, article, section, nav, menu, hgroup {  
+	display: block;  
+}
+
+.left {
+	float:left;	
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both
+}
+
+a.mm {
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	background:url(http://mediamilan.com/wp-content/themes/mm_v2/images/newsletter/mm_wBG.png) left top no-repeat;
+	width:30px;
+	height:30px;
+	display:block;
+}
+
+footer {
+	position: fixed;
+	bottom: 2em;
+	left: 5%;
+}
+
+footer p{
+	font-size: .75em;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 0.5em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.375em;
+}
+
+h3 {
+	font-size: 1.125em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.875em;
+}
+
+h6 {
+	font-size: 0.75em;
+}
+
+#page_container p {
+	font-size: .75em;
+	margin: 0 0 0.5em 0;
+}
+
+/* -- END OOCSS -- */
+
+body {
+	background: url(../images/debut_light.png) repeat;
+	color:#606060;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#page_container {
+	width: 500px;
+	margin: 5em auto 0;
+	background: #FFFFFF;
+	padding: 1em;
+}
+
+form {
+	padding: 0.5em 0;
+	margin: 1.5em 0;
+	border-top: 1px dashed #CCCCCC;
+}
+
+.sub-questions {
+	margin: 0 0 1.5em 1em;
+	padding: 0 0 0 1em;
+	border-left: 1px solid #cccccc;
+}
+
+/* -- START MAIN CSS -- */
